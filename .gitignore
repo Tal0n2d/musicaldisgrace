@@ -1,4 +1,6 @@
-Content/StarterContent/
+Content/StarterContent/*
+
+Content/Independent_Resources/*
 
 # Visual Studio 2015 user specific files
 .vs/
