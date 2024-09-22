@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CB00C49-9D6F-446B-AAF0-70CE18D31D8D}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9CB00C49-9D6F-446B-AAF0-70CE18D31D8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="complexbadaulos" ID="{6A384C13-90CB-4A98-8E2F-D74A8932B3CD}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{AFA776E0-8962-49FA-B651-598C52EC0D45}" ShortID="416602433">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="clar sounds l" ID="{063226B4-7636-4D5B-A6A7-77EBFE9163FA}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{463A546A-85C9-4C7C-BA15-1556CA771D38}" ShortID="328981255">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dud sounds l" ID="{E7EA01AA-FAE4-4039-A1FD-6DC8724AC12F}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F9FABDA5-0B08-417B-9944-608314E8BEE9}" ShortID="415963920">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pipe sounds l" ID="{524D0D76-290D-4A54-B729-CF71E2E04A1D}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4FFEC563-6236-4760-BA7D-969DD338B6B1}" ShortID="421169113">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="clar sounds r" ID="{CF77A37C-1202-4746-A06D-BC1C0E301898}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AB68E0EE-43A2-4F44-A611-08F50BEBFE0D}" ShortID="359983668">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dud sounds r" ID="{7960AEFD-CD34-4CC8-AC02-732D50F55889}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{36A8467C-11A6-4236-84BB-7F3933543C04}" ShortID="543610907">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pipe sounds l" ID="{524D0D76-290D-4A54-B729-CF71E2E04A1D}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_Move_Sfx" ID="{7AE248A1-6DFB-4375-ABBB-B6A20102B468}">
+					<ChildrenList>
+						<Action Name="" ID="{3DD7FC8F-AFC9-4CC2-90C6-F2CE1C2915D9}" ShortID="1069160426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Menu SFX" ID="{5500F816-36F7-4AA9-A304-1B9FC7895A4D}" WorkUnitID="{763446D3-A3D8-4A39-8AB6-B7EBAA8943F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Aulos_Attack" ID="{ECE36383-54ED-47E3-89B3-87FF0CA2DC79}">
+					<ChildrenList>
+						<Action Name="" ID="{3E315401-BDAD-4EE5-BE9A-31D5571322C1}" ShortID="141849576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Aulos Left" ID="{E2627369-9650-4F13-8F3C-8B1B7B762791}" WorkUnitID="{763446D3-A3D8-4A39-8AB6-B7EBAA8943F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B855C995-DD05-4CF1-8CA3-CE86EEB51196}" ShortID="551598636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Aulos Right" ID="{B6252218-EAC7-4E1B-A23C-C341A76A99D7}" WorkUnitID="{763446D3-A3D8-4A39-8AB6-B7EBAA8943F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Battle_Music_Start" ID="{7998C52A-69B7-45DC-98B4-07106D9E6253}">
+					<ChildrenList>
+						<Action Name="" ID="{F54CA8B4-C468-4CC3-B4B4-928F32D04A80}" ShortID="891289421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Looping battle music" ID="{315F4925-EDFB-4EF1-95CF-D0BD4406FD25}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Battle_Music_Stop" ID="{A5B558AC-BF1A-4AF4-B31B-1E7130073208}">
+					<ChildrenList>
+						<Action Name="" ID="{F0154EC6-9E1F-4F47-95F7-8C03C91C0C07}" ShortID="652424195">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Looping battle music" ID="{315F4925-EDFB-4EF1-95CF-D0BD4406FD25}" WorkUnitID="{2155A17B-6E88-4EFD-8881-D0B7A93A582A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

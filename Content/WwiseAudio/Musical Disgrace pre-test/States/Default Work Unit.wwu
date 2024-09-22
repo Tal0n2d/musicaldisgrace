@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00803427-436C-4BCB-86CE-8D7F92D234C8}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{00803427-436C-4BCB-86CE-8D7F92D234C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Oud" ID="{C5EF6B17-B3C3-4871-817B-0A5397F24FA7}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{5AE06E8B-4A9D-4F7B-8D14-D9C186D4AFF5}"/>
+						<State Name="Off" ID="{92F09FA2-80A6-43CB-8D36-CECCDBDC1A80}"/>
+						<State Name="On" ID="{DE85EDA4-12CC-4517-AE65-F9179C02A773}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Salpinx" ID="{B535C4C5-A218-40B8-9D04-A45E9FCB8026}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{5C65F0A3-AF5E-4E18-A5E4-699993814C97}"/>
+						<State Name="Off" ID="{958B9A93-C3C6-4A29-87B1-35DFF52517B9}"/>
+						<State Name="On" ID="{C5130C52-09BA-4BE4-B24C-0A1266AB2E0C}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Off" ID="{958B9A93-C3C6-4A29-87B1-35DFF52517B9}"/>
+							<EndState Name="On" ID="{C5130C52-09BA-4BE4-B24C-0A1266AB2E0C}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Syrinx" ID="{B234FEAE-C172-4D49-BF79-B5F7D05CDA6D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{E82A9569-B0D2-4E53-834F-643643E3C499}"/>
+						<State Name="On" ID="{DC33B427-614E-47FA-BC06-7F74E3340F40}"/>
+						<State Name="Off" ID="{A7A21F05-DB40-4003-ACBB-481D5AA79594}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Voice" ID="{7ED2F445-FA22-479E-8386-1DBB821C1C9D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A881E8D4-7C2A-4275-A5E5-45E96DD51C33}"/>
+						<State Name="On" ID="{8158BC70-0AA9-457C-8540-8EF9C614E01F}"/>
+						<State Name="Off" ID="{550E970C-49D2-4163-869D-BCC5D231B84D}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Kithara" ID="{3A14AE77-01DC-4BB1-981E-EFCBA57BDA23}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{78806A74-B17B-4BCB-A53F-AD0151336749}"/>
+						<State Name="On" ID="{FEB876CE-EAF2-461F-A420-2A4EB143EEFB}"/>
+						<State Name="Off" ID="{456DF9B3-52DB-48E7-90F2-5CE7D336C2E4}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

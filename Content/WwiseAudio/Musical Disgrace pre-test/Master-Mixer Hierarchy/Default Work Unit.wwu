@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C8FE46C5-0F6B-4594-84CE-FDE06016BD9E}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{C8FE46C5-0F6B-4594-84CE-FDE06016BD9E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{10E7D0A9-C486-48F5-9BE4-2542BB2584E3}" WorkUnitID="{5DF4590A-82F7-421B-A458-617023B27257}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C68F8EE8-3D63-4CBD-8A03-A894FE31B14F}" ShortID="421764071">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Stereo Delay (Custom)" ID="{CA2E5423-7137-4EB8-B1FA-C10B6803FCA4}" ShortID="721686926" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+														<PropertyList>
+															<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
+															<Property Name="EnableFeedback" Type="bool" Value="True"/>
+															<Property Name="FilterFrequency" Type="Real32" Value="1200"/>
+															<Property Name="FilterType" Type="int32" Value="5"/>
+															<Property Name="LeftCrossfeed" Type="Real32" Value="-16"/>
+															<Property Name="LeftDelayTime" Type="Real32" Value="0.25"/>
+															<Property Name="LeftFeedback" Type="Real32" Value="-6"/>
+															<Property Name="RightCrossfeed" Type="Real32" Value="-16"/>
+															<Property Name="RightDelayTime" Type="Real32" Value="0.5"/>
+															<Property Name="RightFeedback" Type="Real32" Value="-6"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{9B99ABA2-A0C2-4760-B403-93FAA15AE91C}" ShortID="918442503">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Delay (Custom)" ID="{BC8FD739-A111-47A8-84A3-B0F647FCB8A0}" ShortID="142730105" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.25"/>
+															<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+															<Property Name="WetDryMix" Type="Real32" Value="75"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{747B00FB-1D22-4746-BE7B-23948FCB5EF7}" ShortID="402118837">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{EBAE4D21-ACCA-4BBE-B653-4A072ACFC1DF}" ShortID="837655652">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="HighPass" ID="{45B70728-EA02-43ED-AEDD-CD6CC7BBAE77}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A81F198A-E839-4A18-9424-FA7F31EED630}" ShortID="1045851090">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+												<ObjectRef Name="StereoPolyrythmDelay" ID="{C2E0189B-3F14-41FB-B77E-25237B51B040}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{072F2ED6-01A8-4311-9ABA-C86EBE490706}" ShortID="785402063">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="LowPass" ID="{DA1AA29B-426A-4B39-9502-3A04678D0DF1}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="Ampitheatre Reverb" ID="{8FF49438-5A21-4B6B-9D16-6A8918BF1C13}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{10E7D0A9-C486-48F5-9BE4-2542BB2584E3}" WorkUnitID="{5DF4590A-82F7-421B-A458-617023B27257}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{08ABE75C-B13B-4599-89EB-F95D22DA3DBC}" ShortID="363664446">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Delay (Custom)" ID="{F7C7610B-A5C9-4DE5-A30C-D9926FAB9540}" ShortID="143378715" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.25"/>
+															<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+															<Property Name="WetDryMix" Type="Real32" Value="60"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{EB9DC764-9F6D-407B-A579-3D7F46059808}" ShortID="18858391">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CE4EAE62-BFA1-4BA3-9A22-A8551905432C}" ShortID="504893690">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="HighPass" ID="{45B70728-EA02-43ED-AEDD-CD6CC7BBAE77}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{7FE7D3AF-7B84-418F-A28D-168BB547332A}" ShortID="855054447">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+												<ObjectRef Name="StereoPolyrythmDelay" ID="{C2E0189B-3F14-41FB-B77E-25237B51B040}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{0FD3F2D3-70C3-4A54-BD11-D62B95D8C304}" ShortID="142702870">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="LowPass" ID="{DA1AA29B-426A-4B39-9502-3A04678D0DF1}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="Complete Dry" ID="{A15707E0-32DB-4D55-9D7B-379A64176E9C}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{10E7D0A9-C486-48F5-9BE4-2542BB2584E3}" WorkUnitID="{5DF4590A-82F7-421B-A458-617023B27257}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Player Reverb" ID="{EBC9F1FC-06CC-4428-80D9-D62211C62D08}">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{10E7D0A9-C486-48F5-9BE4-2542BB2584E3}" WorkUnitID="{5DF4590A-82F7-421B-A458-617023B27257}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{7752C009-925F-4A45-9426-A9B8F94AC699}" ShortID="182705344">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom CreatedFrom="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}">
+													<Effect Name="Hall_Large_Dark (Custom)" ID="{9083755E-2D4F-416D-B159-9B99D46194C6}" ShortID="364556476" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<PropertyList>
+															<Property Name="DecayTime" Type="Real32" Value="5.2"/>
+															<Property Name="Density" Type="Real32" Value="70"/>
+															<Property Name="DryLevel" Type="Real32" Value="0"/>
+															<Property Name="ERLevel" Type="Real32" Value="-29"/>
+															<Property Name="ERPattern" Type="int32" Value="11"/>
+															<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+															<Property Name="Filter1Gain" Type="Real32" Value="4"/>
+															<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+															<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+															<Property Name="Filter3Gain" Type="Real32" Value="-11.5"/>
+															<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+															<Property Name="PreDelay" Type="Real32" Value="75"/>
+															<Property Name="Quality" Type="int32" Value="16"/>
+															<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+															<Property Name="RoomShape" Type="Real32" Value="55"/>
+															<Property Name="RoomSize" Type="Real32" Value="73"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{00B5C40A-0D61-4E31-811C-EBBC668D2646}" ShortID="426046183">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="HighPass" ID="{45B70728-EA02-43ED-AEDD-CD6CC7BBAE77}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{7C12C267-07B6-49EB-A037-9BF9347CC4C8}" ShortID="931273531">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+												<ObjectRef Name="StereoPolyrythmDelay" ID="{C2E0189B-3F14-41FB-B77E-25237B51B040}" WorkUnitID="{72422029-6006-4CC3-8BBA-2E3761505985}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{FE3A79C1-513F-4FCC-AF69-021B47A24E17}" ShortID="516459764">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Compressor (Custom)" ID="{6C5E2C89-205D-49F2-B80A-F83DCF63F510}" ShortID="317152809" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+														<PropertyList>
+															<Property Name="AttackTime" Type="Real32" Value="0.3"/>
+															<Property Name="OutputGain" Type="Real32" Value="2"/>
+															<Property Name="Ratio" Type="Real32" Value="2"/>
+															<Property Name="ReleaseTime" Type="Real32" Value="1.2"/>
+															<Property Name="Threshold" Type="Real32" Value="-15"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{53642FE3-C892-4E19-8582-5B8ECB10247B}" ShortID="736566129">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+												<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Slow_Release" ID="{9FB8DC2B-7F1C-4E4E-8FA5-50872652D2DD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
