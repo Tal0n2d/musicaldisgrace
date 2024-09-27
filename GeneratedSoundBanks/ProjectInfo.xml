@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Musical Disgrace pre-test" GUID="{4F9E8324-2D74-4C5C-A3BA-9BFC9D9EA9EC}" Generator="2023.1.7.8574"/>
+	<CacheRoot>../../../../GitHub Backup Files (Pre-Everyone joining - week of 9-19-2024)/Version saved 9-24-2024/Grayson Music update/Musical Disgrace 9-24/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{5C75F391-3756-47DB-BDB8-E7C650323CD9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../GitHub Backup Files (Pre-Everyone joining - week of 9-19-2024)/Version saved 9-24-2024/Grayson Music update/Musical Disgrace 9-24/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{A79BC1CE-4A7E-459A-88B2-3CC6EA4119FB}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C4B61510-F549-78A6-0EB2-4E8748BED051}</FileHash>
+</ProjectInfo>
